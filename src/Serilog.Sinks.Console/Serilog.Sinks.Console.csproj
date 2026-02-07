@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <Description>A Serilog sink that writes log events to the console/terminal.</Description>
         <Authors>Serilog Contributors</Authors>
@@ -10,6 +10,7 @@
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <RootNamespace>Serilog</RootNamespace>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <AssemblyName>Bbsw-$(MSBuildProjectName)</AssemblyName>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(TargetFramework)' != 'net462' ">
